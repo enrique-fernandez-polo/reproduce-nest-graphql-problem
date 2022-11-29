@@ -1,0 +1,19 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type EntityOutput {
+  name: String!
+}
+
+type Query {
+  testQuery: EntityOutput!
+}
+
+type Mutation {
+  test(input: EntityInput!): EntityOutput!
+}
+
+input EntityInput {
+  name: String!
+}
